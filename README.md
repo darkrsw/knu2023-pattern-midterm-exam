@@ -38,6 +38,8 @@ public static String getHostName() {
 ```
 { "class1": {"method1": {"var1", ...}, "method2": ... }, "class2": ...}
 ```
+* R11: As there are many overloaded methods, each method should be represented with the form of `method_name["param_type1", "param_type2", ...]` when the method signature is given as `method_name(param_type1 var1, param_type2 var2, ...)`.
+
 
 ## Note:
 
