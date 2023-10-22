@@ -39,7 +39,7 @@ public static String getHostName() {
 { "class1": {"method1": {"var1", ...}, "method2": ... }, "class2": ...}
 ```
 * R11: As there are many overloaded methods, each method should be represented with the form of `method_name["param_type1", "param_type2", ...]` when the method signature is given as `method_name(param_type1 var1, param_type2 var2, ...)`.
-
+* R11.1: In case of comtainer or template types in parameter types, use the out-most type only. For example, `method_name["out_type1", "out_type2", ...]` is the correct representation of `method_name(out_type1<in_type1> var1, out_type2<in_type2> var2, ...)`.
 
 ## Note:
 
